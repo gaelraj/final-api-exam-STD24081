@@ -52,7 +52,7 @@ paths:
                   $ref: '#/components/schemas/Phone'
   /phones/{id}:
     get:
-      summary: Get phone by identifier
+      summary: Get phone by id
       parameters:
         - in: path
           name: id
